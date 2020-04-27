@@ -47,3 +47,8 @@ button:hover {
     background-color: green;
     color: white;
 }
+
+div p {
+    font-size: 25px;
+    font-weight: 500;
+}

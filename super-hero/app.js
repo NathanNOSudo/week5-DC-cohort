@@ -34,4 +34,42 @@ reqBatman.addEventListener("load", () => {
 // make the actual request...
 reqBatman.send()
 
+// Function that shows more details on the movie clicked
+//  Details appear at the bottom of the page. 
+// NEED TO SET UP 2 COLUMNS
+function detailedFeature(imdbID) {
 
+    // url with api key to get detailed batman movies
+    let detailedBatmanURL = `http://www.omdbapi.com/?i=${imdbID}&apikey=${apiKey}`
+
+    // call a new GET request
+    let reqDetailedBatman = new XMLHttpRequest()
+    reqDetailedBatman.open("GET", detailedBatmanURL)
+
+    reqDetailedBatman.addEventListener("load", function () {
+        let moviesFeature = JSON.parse(event.currentTarget.responseText)
+    //     let moviesFeatureTemplate =
+    //         `<div>  
+    //             <h2>${ moviesFeature.Title}</h2> 
+    //             <img src='${ moviesFeature.Poster}'/> 
+    //             <ul>
+    //             <li>${ moviesFeature.Year}</li>
+    //             <li>${ moviesFeature.Rated}</li> 
+    //             <li>${ moviesFeature.Released}</li> 
+    //             <li>${ moviesFeature.Director}</li>  
+    //             </ul>
+    // </div>`
+        let moviesFeatureTemplate =
+            `<div>  
+                 <h2>${ moviesFeature.Title}</h2> 
+                 <img src='${ moviesFeature.Poster}'/> 
+                 <p>${ moviesFeature.Year}</p>
+                 <p>${ moviesFeature.Rated}</p> 
+                 <p>${ moviesFeature.Released}</p> 
+                 <p>${ moviesFeature.Director}</p> 
+    </div>`
+
+        detailedMovieDiv.innerHTML = moviesFeatureTemplate
+    })
+    reqDetailedBatman.send()
+}
