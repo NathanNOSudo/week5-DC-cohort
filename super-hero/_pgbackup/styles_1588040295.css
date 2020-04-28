@@ -1,40 +1,33 @@
-/* style pageholder */
+/*style pageholder*/
 .container {
     text-align: center;
     margin: 0 auto;
     font-weight: 300;
-    background: linear-gradient(90deg, #ADA996, #F2F2F2, #DBDBDB, #EAEAEA);
-    background-image: url('plasma_d.gif');
-    color: #fffbfb;
 }
 
 .container h3 {
     margin: 0 auto;
     height: 200px ;
-    width: 100%;
+    width: 300px;
     font-size: 40px;
     border-radius: 20px;
+    background-color: black;
     font-weight: normal;
+    color: red;
     padding-top: 40px;
-    background-color: #000000;
-    color: #e6edee;
-    font-variant: normal;
-    text-transform: capitalize;
-    text-align: center;
-    background-image: url('plasma_d.gif');
 }
 
 img {
     border: 2px, solid, rgb(194, 3, 3);
     border-radius: 20px;
-    opacity: 0.5;
+    opacity:  0.5;
     transition: 0,25s ease-in-out;
+
 }
 
 img:hover {
     opacity: 1;
 }
-
 button {
     cursor: pointer;
     transition: 0.25s ease-in-out;
@@ -43,7 +36,7 @@ button {
     font-size: 20px;
     color: white;
     background-color: black;
-    outline: none;
+    outline: none; 
     border-radius: 20px;
     margin-bottom: 10px;
     margin-top: 10px;

@@ -5,7 +5,6 @@
     font-weight: 300;
     background: linear-gradient(90deg, #ADA996, #F2F2F2, #DBDBDB, #EAEAEA);
     background-image: url('plasma_d.gif');
-    color: #fffbfb;
 }
 
 .container h3 {
@@ -18,6 +17,7 @@
     padding-top: 40px;
     background-color: #000000;
     color: #e6edee;
+    font-family: 'Racing Sans One', cursive;
     font-variant: normal;
     text-transform: capitalize;
     text-align: center;
