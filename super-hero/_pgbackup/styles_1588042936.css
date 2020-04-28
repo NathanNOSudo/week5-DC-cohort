@@ -1,4 +1,5 @@
 /* style pageholder */
+
 /* @font-face{ 
 	font-family: 'MyWebFont';
 	src: url('WebFont.eot');
@@ -11,14 +12,15 @@
 html {
     font-family: webfont;
 } */
+
 .container {
+    font-family: racing-sans-one
     text-align: center;
     margin: 0 auto;
     font-weight: 300;
     background: linear-gradient(90deg, #ADA996, #F2F2F2, #DBDBDB, #EAEAEA);
     background-image: url('plasma_d.gif');
     color: #fffbfb;
-    font-family: 'Racing Sans One', cursive;
 }
 
 .container h3 {
@@ -58,10 +60,9 @@ button {
     background-color: black;
     outline: none;
     border-radius: 20px;
-    margin-bottom: 5%;
+    margin-bottom: 10px;
     margin-top: 10px;
     overflow: auto;
-    font-family: 'Racing Sans One', cursive;
 }
 
 button:hover {
