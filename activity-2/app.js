@@ -9,9 +9,9 @@ request.onload = function () {
         if(fact.user) {
         return `<li>
             <label>${fact.text}</label>
-            <label>${fact.user.name.first ? fact.user.name.first : 'none'}</label>
-            <label>${fact.user.name.last}</label>
-        </li>`
+            <li> <label>${fact.user.name.first ? fact.user.name.first : 'none'}</label>
+            <label>${fact.user.name.last}</label></li>
+        </li><hr>`
         }
     })
 

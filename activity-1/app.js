@@ -6,9 +6,10 @@ request.addEventListener("load", function () {
     let result = JSON.parse(this.responseText)
 
     for (let i = 0; i < result.all.length; i++) {
-        console.log(result.all[i].text)
+        console.log(result.text)
         if (result.all[i].user) {
-            console.log(result.all[i].user.name)
+            console.log(result.all[i].user.name.first)
+            // console.log(result.all[i].user.name.first.last)
         }
     }
 })
