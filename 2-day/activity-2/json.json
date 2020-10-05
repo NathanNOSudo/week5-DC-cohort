@@ -1,0 +1,38 @@
+{
+    : {
+_id: "5de7399c544329040015b133",
+coffee: " ",
+emailAddress: " ",
+__v: 0
+    },
+bayliethetroll@trollfaceemote.org: {
+_id: "5de7d0510462bd04002b41fa",
+emailAddress: "bayliethetroll@trollfaceemote.org",
+coffee: "lmao got em",
+__v: 0
+    },
+hey@: {
+_id: "5de845359b9fac04009a2033",
+coffee: "hey",
+emailAddress: "hey@",
+__v: 0
+    },
+@d: {
+_id: "5e309fe35ea42d040089e3b6",
+coffee: "ss",
+emailAddress: "@d",
+__v: 0
+    },
+johndoe123@gmail.com: {
+_id: "5ea77eed9701a00400c01b78",
+coffee: "Regular Hot Coffee",
+emailAddress: "johndoe123@gmail.com",
+__v: 0
+    },
+name@name.name: {
+_id: "5ea832677c1ec0040035ad7e",
+emailAddress: "name@name.name",
+coffee: "latte",
+__v: 0
+    }
+}

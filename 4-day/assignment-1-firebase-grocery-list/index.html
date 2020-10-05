@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css"></link>
+
+</head>
+
+<body>
+    <h1>Firebase</h1>
+    <div id="textbox">
+            <input type="text" id="itemTextBox" />
+            <button id="addItemButton">Add</button>
+    </div>
+    
+    <!-- Boot strap -->
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Filter By Store Name
+        </button>
+        <div class="dropdown-menu" id= "filterDropDown" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Example Store 1</a>
+            <a class="dropdown-item" href="#">Example Store 2</a>
+            <a class="dropdown-item" href="#">Example Store 3</a>
+        </div>
+    </div>
+
+    <ul id="itemList">
+
+    </ul>
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+    <!-- Firebase Realtime Database Library -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAhP5RCeqE5QfLGZwGMQ82KUDFqwUb8Dq0",
+            authDomain: "grocery-list-79ade.firebaseapp.com",
+            databaseURL: "https://grocery-list-79ade.firebaseio.com",
+            projectId: "grocery-list-79ade",
+            storageBucket: "grocery-list-79ade.appspot.com",
+            messagingSenderId: "631703025554",
+            appId: "1:631703025554:web:9d719c1c1f005f3e16734b"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
