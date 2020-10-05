@@ -33,7 +33,7 @@ function getThemOrders(orders) {
 }
 
 
-// displays all coffee orders
+// displays all coffe orders
 function displayAllOrders(orders) {
     let allOrders = orders.map(order => {
         return `<div class="orders">

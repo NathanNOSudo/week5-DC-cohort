@@ -1,0 +1,18 @@
+#movieListDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#movieListDiv div {
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 150px;
+}
+
+#detailedMovieDiv {
+    background-color: lightcoral;
+    text-align: center;
+}
