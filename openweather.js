@@ -34,4 +34,6 @@ function convertArray(string){
 
     }
 return titleLetters.join(" ")
-}})
+}
+// I have no clue
+})

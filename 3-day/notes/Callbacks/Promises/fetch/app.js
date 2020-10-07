@@ -1,13 +1,12 @@
 
-String.prototype.toJadenCase = function() {
-    console.log(this.split(" ".array.forEach(element => {
-        return element[0].toUpperCase()
-    }))
-}
+// String.prototype.toJadenCase = function() {
+//     console.log(this.split(" ".array.forEach(element => {
+//         return element[0].toUpperCase()
+//     }))
+
   // this.split(" ").map(word => word.charAt(0).toUpperCase());
 
-"How can mirrors be real if our eyes aren't real".toJadenCase();
-
+// "How can mirrors be real if our eyes aren't real".toJadenCase();
 
 // Asycronus Request
     // Requests that happen in the background 

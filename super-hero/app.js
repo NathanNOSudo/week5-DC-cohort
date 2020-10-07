@@ -25,7 +25,7 @@ reqBatman.addEventListener("load", () => {
     let movieItems = movies.Search.map(movie => {
         return `<div>   
                     <img onclick="detailedFeature('${movie.imdbID}')" src='${movie.Poster}'/> 
-                    <h2>${movie.Title}</h2>
+                    <h2>${movie.Title}</h2><details></details>
                 </div>`
     })
     movieListDiv.innerHTML = movieItems.join("")
