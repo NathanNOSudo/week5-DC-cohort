@@ -101,3 +101,13 @@ function deleteOrder() {
     })
 
 }
+
+
+// {% comment %} <div><form><form
+// <span>----Create An Order----</span>
+// <span>Enter Email Address:</span>
+// <input id="emailInputTextBox" type="text">
+// <span>Enter Order:</span>
+// <input id="orderInputTextBox" type="text">
+// <button id="newOrderButton" type="button">Enter</button>
+// </div> {% endcomment %}

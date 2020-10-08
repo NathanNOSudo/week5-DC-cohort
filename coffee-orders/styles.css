@@ -2,13 +2,34 @@ header {
     display: flex;
     flex-direction: column;
 }
-
+.wrapperForm {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 500px;
+    border: 14px groove #726B10;
+    border-radius: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
 #ordersListDiv {
     display: flex;
     flex-wrap: wrap;
     
 }
-
+.emailAdd {
+    font-style: italic;
+    margin:  10px 10px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+.coffeOrd{  font-style: italic;
+    vertical-align: middle;
+    margin: 10px;
+    overflow: hidden;
+    max-width: 245px;
+}
 .orders {
     margin: 20px;
     padding: 10px;

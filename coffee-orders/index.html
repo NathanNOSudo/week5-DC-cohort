@@ -13,14 +13,16 @@
 <body>
 
     <header>
-        <div>
-            <span>----Create An Order----</span>
-            <span>Enter Email Address:</span>
-            <input id="emailInputTextBox" type="text">
-            <span>Enter Order:</span>
-            <input id="orderInputTextBox" type="text">
-            <button id="newOrderButton" type="button">Enter</button>
-        </div>
+<div class="wrapperForm cc_cursor">
+<form action="/action.php" method="post"><div class="emailAdd"><span>Email Address: </span><input id="emailInputTextBox" type="text" /> </div>
+<br /> <div class="coffeOrd">Coffe Order: <input id="orderInputTextBox" type="text"length="20px" /> </div><br /> 
+<button id="newOrderButton" type="button">Submit Order</button>
+<select name="gender">
+<option selected="selected" value="male">Male</option>
+<option value="female">Female</option>
+</select><br /> <input checked="checked" name="newsletter" type="radio" value="daily" /> To Go <input name="newsletter" type="radio" value="weekly" /> Delivery<br /> <textarea cols="20" name="comments" rows="5">Special Instructions</textarea><br /> <label><input name="terms" type="checkbox" value="tandc" />Accept Terms</label> <br /> <input type="submit" value="Submit" /></form></div>
+
+  
         <div>
             <span>Search For Order By Email:</span>
             <input id="searchEmailInputTextBox" type="text">
